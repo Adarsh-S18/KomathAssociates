@@ -13012,16 +13012,27 @@ textarea.form-control {
 @media (min-width: 768px) {
   .checkcontainer {
     flex-direction: row;
+    text-align: center;
     align-items: center;
   }
 
   .checkcase {
-    font-size: 10px;
     flex: 2;
+    text-align: center;
     padding: 20px;
   }
 
   .checkbutton {
-    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+  }
+}
+
+
+@media (min-width: 365px){
+  .checkbutton{
+    margin-left: 0px;
+    width: 100%;
   }
 }
