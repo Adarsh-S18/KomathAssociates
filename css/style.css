@@ -624,6 +624,62 @@ pre code {
   }
 }
 
+
+
+.sontcont {
+  border: 6px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.sontcont .image {
+  flex: 2;
+  max-width: 100%;
+  order: 2;
+  text-align: center;
+}
+
+.sontcont .image img {
+  max-width: 100%;
+  height: auto;
+}
+.sontcont h2 {
+  font-weight: 700;
+}
+
+.sontcont .content {
+  /* font-family: Arial, Helvetica, sans-serif; */
+ font-size: 28px;
+  color: black;
+  opacity: 0.9;
+  flex: 2;
+  max-width: 100%;
+  order: 1;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .sontcont{
+    flex-direction: column;
+  }
+  .sontcont .image {
+    flex: 1;
+  }
+  .sontcont .content {
+    flex: 1;
+  }
+}
+
+@media (max-width: 590px) {
+  .sontcont .content h2{
+    font-size: 20px;
+  }
+}
+
 .contentss {
   border: 5px solid rgb(201, 201, 201);
   text-align: justify;
